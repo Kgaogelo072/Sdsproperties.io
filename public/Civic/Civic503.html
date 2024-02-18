@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Unit 503</title>
+  <style>
+    #room{border-radius: 1rem;}
+    h3 {color: antiquewhite;}
+    .body {margin: 0px;
+    padding: 0px;}
+    .home-tab{display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    }
+    .logo{flex: 0.2;
+        padding-left: 20px;
+    }
+    .home-button{flex: 0.8;
+        margin-left: 800px;
+    }
+    a {color: #192655;
+    font-weight:bolder;}
+    a:hover {
+        color: gold;
+    }
+    p{color: #192655;}
+    .grid-containerSH{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        background-color: #B4BDFF;
+        padding-top: 80px;
+        padding-bottom: 400px;
+        padding-left: 100px;
+        grid-template-areas:
+        "item1SH item2SH item3SH"
+        "item4SH item5SH item6SH";
+    }
+        
+    .item1SH {grid-area: item1SH;
+        z-index: 3;}
+    .item2SH {grid-area: item1SH;
+    }
+    .item3SH {grid-area: item2SH;
+        z-index: 3;}
+    .item4SH {grid-area: item2SH;
+    }
+    .item5SH {grid-area: item3SH;
+        z-index: 3;}
+    .item6SH {grid-area: item3SH;
+    }
+    .item7SH {grid-area: item4SH;
+        z-index: 3;}
+    .item8SH {grid-area: item4SH;
+    }
+    .item9SH {grid-area: item5SH;
+        z-index: 3;}
+    .item10SH {grid-area: item5SH;
+    }
+
+    .item11SH  {grid-area: item1SH;
+        height: 80px;
+        width: 350px;
+        opacity: 0.6;
+        background-color: grey;
+        z-index: 2;
+        border-radius: 1rem;
+    }
+    .item12SH  {grid-area: item2SH;
+        height: 80px;
+        width: 350px;
+        opacity: 0.6;
+        background-color: grey;
+        z-index: 2;
+        border-radius: 1rem;
+    }
+    .item13SH  {grid-area: item3SH;
+        height: 80px;
+        width: 350px;
+        opacity: 0.6;
+        background-color: grey;
+        z-index: 2;
+        border-radius: 1rem;
+    }
+    .item14SH  {grid-area: item4SH;
+        height: 80px;
+        width: 350px;
+        opacity: 0.6;
+        background-color: grey;
+        z-index: 2;
+        border-radius: 1rem;
+    }
+    .item15SH  {grid-area: item5SH;
+        height: 80px;
+        width: 350px;
+        opacity: 0.6;
+        background-color: grey;
+        z-index: 2;
+        border-radius: 1rem;
+    }
+
+  </style>
+</head>
+<body class="body">
+    <div class="home-tab">
+        <div class="logo">
+            <img src="../../assets/images/SDS_logo_250.jpg" height="75" alt="movie ranking project preview"/>
+        </div>
+        <div class="home-button">
+            <h3><a href="../../index.html">Home</a></h3>
+        </div>
+    </div>
+    <div class="grid-containerSH">
+        <div class="item1SH">
+            <h3>Kitchen</h3>
+            <h3>Civic Towers (Unit 503)</h3>
+        </div>
+        <div class="item2SH">
+            <img id = "room" src="../../assets/images/Civic/Room503/K.jpg" height="300" width="350" alt="movie ranking project preview"/>
+        </div>
+        <div class="item3SH">
+            <h3>Bathroom</a></h3>
+        </div>
+        <div class="item4SH">
+            <img id = "room" src="../../assets/images/Civic/Room503/B.jpg" height="300" width="350" alt="movie ranking project preview"/>
+        </div>
+        <div class="item5SH">
+            <h3>Room 1</h3>
+            <h3>12M: 4237  | 11M: R4622 | 10M: 5085</h3>
+        </div>
+        <div class="item6SH">
+            <img id = "room" src="../../assets/images/Civic/Room503/R1.jpg" height="300" width="350" alt="movie ranking project preview"/>
+        </div>
+        <div class="item7SH">
+            <h3>Room 2</h3>
+            <h3>12M: 4237  | 11M: R4622 | 10M: 5085</h3>
+        </div>
+        <div class="item8SH">
+            <img id = "room" src="../../assets/images/Civic/Room503/R2.jpg" height="300" width="350" alt="movie ranking project preview"/>
+        </div>
+        <div class="item9SH">
+            <h3>Room 3</h3>
+            <h3>12M: 3861  | 11M: R4212 | 10M: 4633</h3>
+        </div>
+        <div class="item10SH">
+            <img id = "room" src="../../assets/images/Civic/Room503/R3.jpg" height="300" width="350" alt="movie ranking project preview"/>
+        </div>
+        <div class="item11SH">
+        </div>
+        <div class="item12SH">
+        </div>
+        <div class="item13SH">
+        </div>
+        <div class="item14SH">
+        </div>
+        <div class="item15SH">
+        </div>
+    </div>
+</body>
+</html>

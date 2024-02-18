@@ -1,0 +1,116 @@
+
+h3{color: #F7FFE5;}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    background-color: #B4BDFF;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 70px;
+    grid-template-areas:
+    "item1C item2C item3C"
+    "item4C item5C item6C";
+}
+
+.item1C { grid-area: item1C;
+    z-index: 3;}
+.item2C { grid-area: item1C;
+}
+.item3C { grid-area: item2C;
+    z-index: 3;}
+.item4C { grid-area: item2C;
+}
+.item5C { grid-area: item3C;
+    z-index: 3;}
+.item6C { grid-area: item3C;
+}
+.item7C { grid-area: item4C;
+    z-index: 3;}
+.item8C { grid-area: item4C;
+}
+.item9C { grid-area: item5C;
+    z-index: 3;}
+.item10C { grid-area: item5C;
+}
+.item11C { grid-area: item6C;
+    z-index: 3;}
+.item12C { grid-area: item6C;
+}
+.item13C  { grid-area: item1C;
+    border-radius: 0.5rem;
+    height: 50px;
+    width: 350px;
+    opacity: 0.4;
+    background-color: antiquewhite;
+    z-index: 2;}
+.item14C  { grid-area: item2C;
+    border-radius: 0.5rem;
+    height: 50px;
+    width: 350px;
+    opacity: 0.4;
+    background-color: antiquewhite;
+    z-index: 2;}
+.item15C  { grid-area: item3C;
+    border-radius: 0.5rem;
+    height: 50px;
+    width: 350px;
+    opacity: 0.4;
+    background-color: antiquewhite;
+    z-index: 2;} 
+.item16C  { grid-area: item4C;
+    border-radius: 0.5rem;
+    height: 50px;
+    width: 350px;
+    opacity: 0.4;
+    background-color: antiquewhite;
+    z-index: 2;}
+.item17C  { grid-area: item5C;
+    border-radius: 0.5rem;
+    height: 50px;
+    width: 350px;
+    opacity: 0.4;
+    background-color: antiquewhite;
+    z-index: 2;}
+.item18C  { grid-area: item6C;
+    border-radius: 0.5rem;
+    height: 50px;
+    width: 350px;
+    opacity: 0.4;
+    background-color: antiquewhite;
+    z-index: 2;}       
+.grid-container-civic {
+    display: grid;
+    padding-left: 40px;
+    padding-top: 80px;
+    margin: 0px;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 50px 50px 50px;
+    grid-row-gap: 200px;
+    background-color: #B4BDFF;}
+a {color: #192655;
+    font-weight:bolder;}
+a:hover {
+    color: gold;
+}
+p{color: #192655;}
+.home-tab{display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.logo{flex: 0.2;
+    padding-left: 20px;
+}
+.home-button{flex: 0.8;
+    margin-left: 800px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 25%;
+}
